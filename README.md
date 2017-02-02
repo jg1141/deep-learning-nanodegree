@@ -6,3 +6,6 @@ Sign into github and add suggestions with other links.
 
 # deep-learning-nanodegree
 Course projects and related materials
+
+# local instance
+cd /Users/johngraves/20170127/deep-learning-nanodegree
