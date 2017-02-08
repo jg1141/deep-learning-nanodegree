@@ -1,0 +1,27 @@
+architecture engineering is the new feature engineering
+
+It learns the high-level features, more or less.
+
+Complexity is in the architecture.
+We are training hyper-parameters.
+
+Pandas Series:
+.unique()
+
+https://github.com/llSourcell/recommender_live
+https://github.com/dvysardana/RecommenderSystems_PyData_2016
+http://online.cambridgecoding.com/notebooks/eWReNYcAfB/implementing-your-own-recommender-systems-in-python-2
+
+We have huge-ass matricies loaded into memory
+
+http://aimotion.blogspot.co.nz/2011/05/evaluating-recommender-systems.html
+
+F-1 score
+
+https://pypi.python.org/pypi/sparsesvd/
+http://tech.hulu.com/blog/2016/08/01/cfnade.html
+https://medium.com/intuitionmachine/pathnet-a-modular-deep-learning-architecture-for-agi-5302fcf53273#.sn8e4tm5g
+
+We need our own research group
+We are going to publish world class machine learning research
+
