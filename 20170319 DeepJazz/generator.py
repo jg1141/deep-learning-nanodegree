@@ -28,11 +28,19 @@ import lstm
 
 #----------------------------HELPER FUNCTIONS----------------------------------#
 
+def __softmax(x):
+    """Compute softmax values for each sets of scores in x.
+
+Discussion: http://stackoverflow.com/questions/34968722/softmax-function-python
+    """
+    return np.exp(x) / np.sum(np.exp(x), axis=0)
+
 ''' Helper function to sample an index from a probability array '''
 def __sample(a, temperature=1.0):
     a = np.log(a) / temperature
     a = np.exp(a) / np.sum(np.exp(a))
-    return np.argmax(np.random.multinomial(1, a, 1))
+    rm = np.random.multinomial(1, __softmax(a), 1)
+    return np.argmax(rm)
 
 ''' Helper function to generate a predicted value from a given matrix '''
 def __predict(model, x, indices_val, diversity):
